@@ -3,7 +3,7 @@ Programmer: Jordyn Kuhn
 Date: 12.16.19
 Program: Guess My Number
 """
-"""
+
 myNumber = 7
 
 print("\nGuess a number between 1 & 10\n")
@@ -17,8 +17,8 @@ while guess != myNumber:
     print("\nNope, guess again")
     guess = int(input("\n\nEnter a Guess: "))
 
-print("\nCongratulations! You have guessed the number!")
-"""
+print("\nCongratulations! You have guessed the number!\n\n")
+
 
 """
 Programmer: Jordyn Kuhn
