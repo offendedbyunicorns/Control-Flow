@@ -1,8 +1,6 @@
-"""
-Programmer: Jordyn Kuhn
-Date: 12.16.19
-Program: Guess My Number
-"""
+# Programmer: Jordyn Kuhn
+# Date: 12.16.19
+# Program: Guess My Number
 
 myNumber = 7
 
@@ -20,11 +18,10 @@ while guess != myNumber:
 print("\nCongratulations! You have guessed the number!\n\n")
 
 
-"""
-Programmer: Jordyn Kuhn
-Date: 12.19.19
-Program: 1 Through 10
-"""
+# Programmer: Jordyn Kuhn
+# Date: 12.19.19
+# Program: 1 Through 10
+
 
 x = 1
 
