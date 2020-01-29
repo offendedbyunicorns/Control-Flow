@@ -8,8 +8,6 @@ for i in range(3):
     for k in range(4):
         print("\tInner for loop " + str(k))
 
-
-
 print("\n------------------------------\n")
 
 # Programmer: Jordyn Kuhn
@@ -22,3 +20,4 @@ for i in range(4):
     while x >= 0:
         print("\tWhile Loop: " + str(x))
         x = x - 1
+        
