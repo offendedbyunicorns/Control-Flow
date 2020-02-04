@@ -4,7 +4,7 @@
 
 # Define Global Variables Here \/
 
-# name = input("\nWhat is your name: ")
+name = input("\nWhat is your name: ")
 x = 15
 
 # Define Functions Here \/
@@ -54,12 +54,12 @@ def printMultipleTimes(string, times):
 # Call Functions Here \/
 
 
-# greeting()
-# printSomething()
-# print(x)
-# printNumber(28)
-# printNumber(39)
-# printTwoNumbers(23, 78)
-# printTwoNumbers(45)
-# printSum(136, 179)
+greeting()
+printSomething()
+print(x)
+printNumber(28)
+printNumber(39)
+printTwoNumbers(23, 78)
+printTwoNumbers(45)
+printSum(136, 179)
 printMultipleTimes("I Love Computer Science", 15)
