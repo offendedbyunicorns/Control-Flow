@@ -34,8 +34,8 @@ def printNumber(age):
 
 
 def printTwoNumbers(x, y=71):
-    print("First Parameter Or Number: " + str(x))
-    print("Second Parameter Or Number: " + str(y))
+    print("\nFirst Parameter Or Number: " + str(x))
+    print("\nSecond Parameter Or Number: " + str(y))
 
 # Print Sum \/
 
@@ -48,18 +48,32 @@ def printSum(x, y):
 
 def printMultipleTimes(string, times):
     for i in range(times):
-        print(string)
+        print("\n" + string)
 
 
 # Call Functions Here \/
 
-
+print("\n\n------------Greeting Function---------------\n")
 greeting()
+
+
+print("\n\n------------Print Something Function---------------\n")
 printSomething()
 print(x)
+
+print("\n\n------------Print Age Function---------------\n")
+
 printNumber(28)
 printNumber(39)
+
+print("\n\n------------Print 2 Numbers Function---------------")
 printTwoNumbers(23, 78)
 printTwoNumbers(45)
+
+print("\n\n------------Print the Sum of Two Numbers Function---------------\n")
 printSum(136, 179)
+
+print("\n\n------------Print Multiple Times Function---------------\n")
 printMultipleTimes("I Love Computer Science", 15)
+
+print("\n\nThat was quite a few functions...\n\n\n\n")
